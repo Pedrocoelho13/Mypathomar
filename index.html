@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="pt_PT">
+<!-- Cabeçalho -->
+<head>
+    <meta charset="utf-8">
+    <title>MyPaThomar</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/faviconlogo.png" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500&family=Jost:wght@500;600;700&display=swap" rel="stylesheet"> 
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    
+
+    <link rel="stylesheet" type="text/css" href="css/csshake.min.css">
+<!-- or from surge.sh -->
+<link rel="stylesheet" type="text/css" href="https://csshake.surge.sh/csshake.min.css">
+</head>
+<!-- Corpo -->
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="51">
+    <div class="container-xxl bg-white p-0">
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">A Carregar...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+
+        <!-- Navbar & Hero Start -->
+        <div class="container-xxl position-relative p-0" id="home">
+            <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
+                <a href="" class="navbar-brand p-0">
+                    <img src="img/logomypathomar.png">
+                    
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav mx-auto py-0">
+                        <a href="#home" class="nav-item nav-link active">Início</a>
+                        <a href="#feature" class="nav-item nav-link">Características</a>
+                        <a href="#review" class="nav-item nav-link">Comentários</a>
+                        <a href="#contact" class="nav-item nav-link">Contactos</a>
+                    </div>
+                </div>
+            </nav>
+            <div class="container-xxl bg-primary hero-header">
+
+                <div class="container px-lg-5">
+                    <div class="row g-5">
+                        <div class="col-lg-8 text-center text-lg-start">
+                            <h1 class="text-white mb-4 animated slideInDown">Tomar ao alcance de um toque: Conheça, Desfrute, Apaixone-se! </h1>
+                            <p class="text-white pb-3 animated slideInDown">Descubra os principais locais históricos, como o Convento de Cristo, a antiga Sinagoga ou a elegante Igreja de São João. Como também vários Hotéis, Restaurantes, todo o tipo de Lojas e muito mais...</p>
+                            <div class="shake-slow">
+
+                           
+                            <a href="#about" class="btn btn-primary-gradient py-sm-3 px-4 px-sm-5 rounded-pill me-3 animated slideInLeft">Sobre a App</a> 
+                        </div>
+                        </div>
+
+
+
+
+
+                        <div class="col-lg-4 d-flex justify-content-center justify-content-lg-end wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="owl-carousel screenshot-carousel">
+                                <img class="img-fluid" src="img/screenshot-1.png" alt="">
+                                <img class="img-fluid" src="img/screenshot-2.png" alt="">
+                                <img class="img-fluid" src="img/screenshot-3.png" alt="">
+                                <img class="img-fluid" src="img/screenshot-4.png" alt="">
+                                <img class="img-fluid" src="img/screenshot-5.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Navbar & Hero End -->
+
+
+        <!-- About Start -->
+        <div class="container-xxl py-5" id="about">
+            <div class="container py-5 px-lg-5">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <h5 class="text-primary-gradient fw-medium">Sobre a App</h5>
+                        <h1 class="ml1"> 
+                            <span class="text-wrapper">
+                                
+                                <span class="letters">MyPaThomar o seu guia turístico | Tomar</span>
+                
+                              </span>
+                        </h1>
+                        <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+                        <p class="mb-4">Bem-vindos ao MyPaThomar, uma aplicação de guia turístico sobre a Cidade de Tomar e os seus arredores, onde poderás encontrar toda a ajuda necessária para encontrar o melhor de Tomar, de forma simples, intuitiva e fácil.</p>
+                        <div class="row g-4 mb-4">
+                            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.5s">
+                                <div class="d-flex">
+                                    <i class="fa fa-cogs fa-2x text-primary-gradient flex-shrink-0 mt-1"></i>
+                                    <div class="ms-3">
+                                        <h2 class="mb-0" ><span id="down"></span></h2>
+                                        <p class="text-primary-gradient mb-0">Downloads</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.7s">
+                                <div class="d-flex">
+                                    <i class="fa fa-comments fa-2x text-secondary-gradient flex-shrink-0 mt-1"></i>
+                                    <div class="ms-3">
+                                        <h2 class="mb-0" ><span id="conm"></span></h2>
+                                        <p class="text-secondary-gradient mb-0">Comentários</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <script>
+                            //API preços
+                            fetch("js/main2.json")
+                            .then(Response => Response.json())
+                            .then(num => {
+                                document.getElementById("down").innerHTML = num["controlo"]["0"]["numero"];
+                                document.getElementById("conm").innerHTML = num["controlo"]["1"]["numero"];
+                            })
+                    </script>
+                        <div class="shake-slow">
+                        <a href="#review" class="btn btn-primary-gradient py-sm-3 px-4 px-sm-5 rounded-pill mt-3">Ler Comentários</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <img class="img-fluid wow fadeInUp" data-wow-delay="0.5s" src="img/about.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+
+        <!-- Features Start -->
+        <div class="container-xxl py-5" id="feature">
+            <div class="container py-5 px-lg-5">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <h5 class="text-primary-gradient fw-medium">Características</h5>
+                    <h1 class="mb-5">O que pode encontrar</h1>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="feature-item bg-light rounded p-4">
+                            <div class="d-inline-flex align-items-center justify-content-center bg-primary-gradient rounded-circle mb-4" style="width: 60px; height: 60px;">
+                               
+                                    <img src="img/igreja.jpg" width="40" height="40" class="imgborder">
+                            
+                            </div>
+                            <h5 class="mb-3">Em 1 Dia</h5>
+                            <p class="m-0">Nesta secção pode visualizar um pequeno percurso na parte histórica da cidade de Tomar, desde a Mata dos sete Montes, passando pelo Convento de Cristo, Ermidas e Igrejas, terminando na Sinagoga.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="feature-item bg-light rounded p-4">
+                            <div class="d-inline-flex align-items-center justify-content-center bg-secondary-gradient rounded-circle mb-4" style="width: 60px; height: 60px;">
+                                <img src="img/2dias.jpg" width="40" height="40" class="imgborder">
+                            </div>
+                            <h5 class="mb-3">Em 2 Dias</h5>
+                            <p class="m-0">Esta secção turística combina a essência de um museu, a beleza tranquila de jardins encantadores, a serenidade de uma igreja e capelas.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="feature-item bg-light rounded p-4">
+                            <div class="d-inline-flex align-items-center justify-content-center bg-primary-gradient rounded-circle mb-4" style="width: 60px; height: 60px;">
+                                <img src="img/3dias.jpg" width="40" height="40" class="imgborder">
+                            </div>
+                            <h5 class="mb-3">Em 3 Dias</h5>
+                            <p class="m-0">Quando visitar a cidade de Tomar durante a época balnear, não se esqueça de passar neste artigo, pois indicamos algumas praias fluviais de renome perto de Tomar.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="feature-item bg-light rounded p-4">
+                            <div class="d-inline-flex align-items-center justify-content-center bg-secondary-gradient rounded-circle mb-4" style="width: 60px; height: 60px;">
+                                <img src="img/hoteis.jpg" width="40" height="40" class="imgborder">
+                            </div>
+                            <h5 class="mb-3">Hotéis</h5>
+                            <p class="m-0">Aconselhamos os melhores empreendimentos Hoteleiros dentro de todas as faixas de preços e qualidades diferentes. De uma Guest House moderna a hotéis de 2, 4 e 5 estrelas com todo o tipo de serviços.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="feature-item bg-light rounded p-4">
+                            <div class="d-inline-flex align-items-center justify-content-center bg-primary-gradient rounded-circle mb-4" style="width: 60px; height: 60px;">
+                                <img src="img/restaurantes.jpg" width="40" height="40" class="imgborder">
+                            </div>
+                            <h5 class="mb-3">Restaurantes</h5>
+                            <p class="m-0">Os melhores restaurantes da cidade dentro de cada categoria. Se pretende comida portuguesa pode optar por "O Tabuleiro" ou se lhe apetece experimentar uma especialidade tomarense como o sável com açorda de ova, "A Lúria" é a opção certa.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="feature-item bg-light rounded p-4">
+                            <div class="d-inline-flex align-items-center justify-content-center bg-secondary-gradient rounded-circle mb-4" style="width: 60px; height: 60px;">
+                                <img src="img/doces.jpg" width="40" height="40" class="imgborder">
+                            </div>
+                            <h5 class="mb-3">Doçarias</h5>
+                            <p class="m-0">Tomar e os seus doces de encantar, o que não pode mesmo perder é experimentar as doce iguarias nas "Estrelas de Tomar" ou os do "Tropical", veja o que lhe agrade mais.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="feature-item bg-light rounded p-4">
+                            <div class="d-inline-flex align-items-center justify-content-center bg-primary-gradient rounded-circle mb-4" style="width: 60px; height: 60px;">
+                                <img src="img/tours.jpg" width="40" height="40" class="imgborder">
+                            </div>
+                            <h5 class="mb-3">Tours</h5>
+                            <p class="m-0">Relaxe que todas as informações em relação a guias turísticos, tours e transportes estão todos disponíveis aqui</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="feature-item bg-light rounded p-4">
+                            <div class="d-inline-flex align-items-center justify-content-center bg-primary-gradient rounded-circle mb-4" style="width: 60px; height: 60px;">
+                                <img src="img/lojas.jpg" width="40" height="40" class="imgborder">
+                            </div>
+                            <h5 class="mb-3">Lojas</h5>
+                            <p class="m-0">Na sua necessidade de encontrar peças de roupa, alimentos, artesanato ou precisar de abastecer o seu veículo, procure aqui o que lhe é mais necessário.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="feature-item bg-light rounded p-4">
+                            <div class="d-inline-flex align-items-center justify-content-center bg-primary-gradient rounded-circle mb-4" style="width: 60px; height: 60px;">
+                                <img src="img/contacto.png" width="40" height="40" class="imgborder">
+                            </div>
+                            <h5 class="mb-3">Contactos</h5>
+                            <p class="m-0">Tudo foi pensado no seu bem estar e caso precise urgentemente de ajuda, pode recorrer rapidamente aqui, onde encontra os contactos de todos os serviços básicos de ajuda.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Features End -->
+
+
+        <!-- Screenshot Start -->
+        <div class="container-xxl py-5">
+            <div class="container py-5 px-lg-5">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-8 wow fadeInUp" data-wow-delay="0.1s">
+                        <h5 class="text-primary-gradient fw-medium">Fotos</h5>
+                        <h1 class="mb-4">Interface simples, intuitiva e fácil de navegar</h1>
+                        
+                        <p><i class="fa fa-check text-primary-gradient me-3"></i>Fácil de navegar</p>
+                        <p><i class="fa fa-check text-primary-gradient me-3"></i>Muito conteúdo</p>
+                        <p class="mb-4"><i class="fa fa-check text-primary-gradient me-3"></i>Atualizações regularmente</p>
+                    
+                    </div>
+                    <div class="col-lg-4 d-flex justify-content-center justify-content-lg-end wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="owl-carousel screenshot-carousel">
+                            <img class="img-fluid" src="img/screenshot_6.png" alt="">
+                            <img class="img-fluid" src="img/screenshot_7.png" alt="">
+                            <img class="img-fluid" src="img/screenshot_8.png" alt="">
+                            <img class="img-fluid" src="img/screenshot_9.png" alt="">
+                            <img class="img-fluid" src="img/screenshot_10.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Screenshot End -->
+
+
+        
+        <!-- Download Start -->
+        <div class="container-xxl py-5">
+            <div class="container py-5 px-lg-5">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-6">
+                        <img class="img-fluid wow fadeInUp" data-wow-delay="0.1s" src="img/about2.png">
+                    </div>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <h5 class="text-primary-gradient fw-medium">Download</h5>
+                        <h1 class="mb-4">Instale no seu smartphone ou tablet </h1>
+                        
+                        <div class="row g-4">
+                            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.5s">
+                                <div class="shake-horizontal">
+                                <a href="https://www.apple.com/pt/app-store/" class="d-flex bg-primary-gradient rounded py-3 px-4"> 
+                                
+                                    <i class="fab fa-apple fa-3x text-white flex-shrink-0 "></i>
+                                
+                                    <div class="ms-3 ">
+                                    
+                                        <p class="text-white mb-0">Disponível</p>
+                                        <h5 class="text-white mb-0">App Store</h5>
+                                    
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.7s">
+                                <div class="shake-horizontal">
+                                <a href="https://play.google.com/store/games?hl=pt_PT&gl=US" class="d-flex bg-secondary-gradient rounded py-3 px-4">
+                                    <i class="fab fa-android fa-3x text-white flex-shrink-0"></i>
+                                    <div class="ms-3">
+                                        <p class="text-white mb-0 ">Disponível</p>
+                                        <h5 class="text-white mb-0">Play Store</h5>
+                                    </div>
+                                </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Download End -->
+
+        <!-- Testimonial Start -->
+        <div class="container-xxl py-5" id="review">
+            <div class="container py-5 px-lg-5">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <h5 class="text-primary-gradient fw-medium">Comentários</h5>
+                    <h1 class="mb-5">Classificações dos Utilizadores</h1>
+                </div>
+                <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="testimonial-item rounded p-4">
+                    
+                        <div class="d-flex align-items-center mb-4">
+                            <img class="img-fluid bg-white rounded flex-shrink-0 p-1" src="img/rita.png" style="width: 85px; height: 85px;">
+                            <div class="ms-4">
+                                <h5 class="mb-1">Rita</h5>
+                                <p class="mb-1">há 4 dias</p>
+                                <div>
+                                    <small class="fa fa-star text-warning"></small>
+                                    <small class="fa fa-star text-warning"></small>
+                                    <small class="fa fa-star text-warning"></small>
+                                    <small class="fa fa-star text-warning"></small>
+                                    <small class="fa fa-star text-warning"></small>
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <p class="mb-0">As recomendações personalizadas são úteis e ajudaram-me a descobrir lugares incríveis que não teria encontrado por conta própria.</p>
+                    </div>
+                    <div class="testimonial-item rounded p-4">
+                        
+                  
+                        <div class="d-flex align-items-center mb-4">
+                            <img class="img-fluid bg-white rounded flex-shrink-0 p-1" src="img/manuel.jpeg" style="width: 85px; height: 85px;">
+                            <div class="ms-4">
+                                <h5 class="mb-1">Manuel</h5>
+                                <p class="mb-1">há 2 semanas</p>
+                                <div>
+                                    <small class="fa fa-star text-warning"></small>
+                                    <small class="fa fa-star text-warning"></small>
+                                    <small class="fa fa-star text-warning"></small>
+                                    <small class="fa fa-star text-warning"></small>
+                                    
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <p class="mb-0">Falta de informações detalhadas sobre a acessibilidade de certos locais para pessoas com mobilidade reduzida, porém o ótimo suporte ao cliente e a rapidez na resposta acabou por favorecer a minha opnião.</p>
+                    </div>
+                    <div class="testimonial-item rounded p-4">
+
+                        <div class="d-flex align-items-center mb-4">
+                            <img class="img-fluid bg-white rounded flex-shrink-0 p-1" src="img/ricardo.png" style="width: 85px; height: 85px;">
+                            <div class="ms-4">
+                                <h5 class="mb-1">Ricardo</h5>
+                                <p class="mb-1">há 1 mês</p>
+                                <div>
+                                    <small class="fa fa-star text-warning"></small>
+                                    <small class="fa fa-star text-warning"></small>
+                                    <small class="fa fa-star text-warning"></small>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="mb-0">Falta de algumas funcionalidades essenciais, como a possibilidade de salvar pontos turísticos favoritos para referência futura.</p>
+                    </div>
+
+                    <div class="testimonial-item rounded p-4">
+                        <div class="d-flex align-items-center mb-4">
+                            
+                            <img class="img-fluid bg-white rounded flex-shrink-0 p-1" src="img/marta.png" style="width: 85px; height: 85px;">
+                            <div class="ms-4">
+                                <h5 class="mb-1">Marta</h5>
+                                <p class="mb-1">há 6 dias</p>
+                                <div>
+                                    <small class="fa fa-star text-warning"></small>
+                                    <small class="fa fa-star text-warning"></small>
+                                    <small class="fa fa-star text-warning"></small>
+                                    <small class="fa fa-star text-warning"></small>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="mb-0">A aplicação travou algumas vezes enquanto usava o guia, tornando a experiência um pouco frustrante, no entanto conseguia sempre chegar aos locais recomendados e contactar a empresa de tuk tuk para me levar ao Convento de Cristo.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Testimonial End -->
+
+
+        <!-- Contact Start -->
+        <div class="container-xxl py-5" id="contact">
+            <div class="container py-5 px-lg-5">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <h5 class="text-primary-gradient fw-medium">Contacte-nos</h5>
+                    <h1 class="mb-5">Á distância de um clique</h1>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-9">
+                        <div class="wow fadeInUp" data-wow-delay="0.3s">
+                            <p class="text-center mb-4">Para um contacto mais detalhado por favor preencha os campos a seguir de modo a nos enviar um email.</p>
+                            <form>
+                                <div class="row g-3">
+                                    <div class="col-md-6">
+                                        <div class="form-floating">
+                                            <input type="text" class="form-control" id="name" placeholder="Your Name">
+                                            <label for="name">Nome</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-floating">
+                                            <input type="email" class="form-control" id="email" placeholder="Your Email">
+                                            <label for="email">Email</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-floating">
+                                            <input type="text" class="form-control" id="subject" placeholder="Subject">
+                                            <label for="subject">Assunto</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-floating">
+                                            <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 150px"></textarea>
+                                            <label for="message">Mensagem</label>
+                                        </div>
+                                    </div>
+                                    <div class="shake-slow">
+                                    <div class="col-12 text-center">
+                                        <button class="btn btn-primary-gradient rounded-pill py-3 px-5" type="submit">Enviar mensagem</button>
+                                    </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Contact End -->
+        
+
+        <!-- Footer Start -->
+        <div class="container-fluid bg-primary text-light footer wow fadeIn" data-wow-delay="0.1s">
+            <div class="container py-5 px-lg-5">
+                <div class="row g-5">
+                    <div class="col-md-6 col-lg-3">
+                        <h4 class="text-white mb-4">Contactos</h4>
+                        <p><i class="fa fa-map-marker-alt me-3" ></i>Av. Dr. Aurélio Ribeiro 3, Tomar</p>
+                        <p><i class="fa fa-phone-alt me-3"></i>+351 249 058 551</p>
+                        <p><i class="fa fa-envelope me-3"></i>mypathomar@gmail.com</p>
+                        <div class="d-flex pt-2">
+                            
+                            <a class="btn btn-outline-light btn-social" href="https://www.instagram.com/mypathomar/"><i class="fab fa-instagram"></i></a>
+                            
+                        </div>
+                    </div>
+                    
+            <div class="container px-lg-5">
+                <div class="copyright">
+                    <div class="row">
+                        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+							
+							<!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                        </div>
+                        <div class="col-md-6 text-center text-md-end">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-lg-square back-to-top pt-2"><i class="bi bi-arrow-up text-white"></i></a>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
